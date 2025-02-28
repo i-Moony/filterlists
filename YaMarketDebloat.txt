@@ -11,3 +11,6 @@
 
 ! Removes any div that matches '@monetize' apiary namespace. Currently there are no useful blocks matching that. 
 market.yandex.ru##div[data-apiary-widget-name*="@monetize/"]
+
+! Remove header promo
+market.yandex.ru##div[data-apiary-widget-name="@marketfront/MadvHeaderPromo"]
